@@ -1,0 +1,19 @@
+{
+  "name": "mastr-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "MCP",
+    "Model Context Protocol",
+    "AI",
+    "Marktstammdatenregister"
+  ],
+  "author": "jamct",
+  "license": "",
+  "description": "",
+  "dependencies": {
+    "@destinationstransfers/ntp": "^2.0.0",
+    "@modelcontextprotocol/sdk": "^1.16.0"
+  }
+}
