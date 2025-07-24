@@ -130,7 +130,7 @@ server.registerTool(
             mastrData.bruttoleistungSumme +
             " kW \n Nettoleistung: " +
             mastrData.nettoleistungSumme +
-            " kw \n",
+            " kW \n",
         },
       ],
     };
@@ -141,7 +141,7 @@ server.registerTool(
 async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.error("MaStR MCP Server running on stdio");
+  console.info("MaStR MCP Server running on stdio");
 }
 
 main().catch((error) => {
