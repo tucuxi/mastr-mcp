@@ -32,7 +32,7 @@ server.registerTool(
 async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.error("NTP MCP Server running on stdio");
+  console.info("NTP MCP Server running on stdio");
 }
 
 main().catch((error) => {
