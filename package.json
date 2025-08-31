@@ -14,7 +14,7 @@
   "description": "",
   "dependencies": {
     "@destinationstransfers/ntp": "^2.0.0",
-    "@modelcontextprotocol/sdk": "^1.16.0"
+    "@modelcontextprotocol/sdk": "^1.17.4"
   },
   "devDependencies": {
     "@types/node": "^24.3.0"
